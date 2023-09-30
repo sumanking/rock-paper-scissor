@@ -1,0 +1,38 @@
+        body {
+        background-color: black;
+        color:aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+      }
+      .title{
+        font-size: 3rem;
+      }
+      .game{
+        display: flex;
+        flex-direction: row;
+      }
+      .move-button{
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%;
+        margin: 10px;
+        background-color: transparent;
+        border: 2px solid white;
+        cursor: pointer;
+      }
+      .move-button:hover{
+        background-color: rgb(255, 255, 255);
+        border: 5px solid rgb(44, 60, 179);
+      }
+      .move-icon{
+        height: 8rem;
+      }
+      .reset{
+        height:3rem;
+        font-size: 2rem;
+        width: 30%;
+      }
+    
